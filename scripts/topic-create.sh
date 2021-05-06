@@ -1,0 +1,1 @@
+sh "/Users/felipeinostroza/Documents/dev/tools/confluent-6.1.0/bin/kafka-topics" --create --zookeeper localhost:2181 --topic nse-eod-topic --partitions 5 --replication-factor 3
